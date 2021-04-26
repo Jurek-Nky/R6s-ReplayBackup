@@ -6,7 +6,6 @@ IfExist, %ToggleDest%timerToggle
 	{
 		BackupRainbowReplay()
 		FileRead, TimerTimeMillisecs, %ToggleDest%timerToggle
-		MsgBox , %TimerTimeMillisecs%
 		sleep %TimerTimeMillisecs%
 		reload
 	}
